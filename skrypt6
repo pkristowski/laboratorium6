@@ -13,4 +13,4 @@
  cut -b 30- /etc/passwd | grep -c ".bash"
 
 #5.
- grep -e "[IVXCMD]$" plik.txt | grep -e "^-[IVXCMD]"
+ grep -e "[IVXCMD]$" plik.txt | grep -e "^[IVXCMD]"
