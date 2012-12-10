@@ -1,0 +1,16 @@
+#Laboratorium 6
+
+#1.
+ grep -e "." plik.txt
+
+#2.
+ grep -e "^[0-9]" pl*
+
+#3.
+ grep -E "^.{8}r.*"
+
+#4.
+ cut -b 30- /etc/passwd | grep -c ".bash"
+
+#5.
+ grep -e "[IVXCMD]$" plik.txt | grep -e "^-[IVXCMD]"
